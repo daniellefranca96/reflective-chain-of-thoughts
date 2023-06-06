@@ -1,6 +1,7 @@
 # reflective-chain-of-thoughts
 Reflective Chain Of Thoughts (RCoT) is an attempt to combine the iterativeness of the CoT prompt with the deeper level of reflection of the ToT.
 
+## Prompt
 Below is a first version of the prompt to run the method, it was tested on GPT3 and GPT4.
 
 "The purpose of this discussion is to use a new method called Reflective Chain Of Thoughts (RCoT), which involves a deep analysis of each step, exploring various perspectives, and deciding the best way forward. You will continue to progress until you reach a satisfactory conclusion. Please apply the RCoT method as we proceed with the discussion in the format bellow."
@@ -29,3 +30,6 @@ Prompt 5 (Goal Achievement Check):
 
 Prompt 6 (Loop Back - Iterative):
 "Based on the progress check, if we're not closer to the expected result of the goal, we return to Prompt 1 and repeat the process. We continue this iterative process until we reach a satisfactory conclusion, at which point we can return to the user with the outcome and declare the task finished."
+
+## Feedback & Contribution
+Any feedback or contribution to improve the method are welcome.

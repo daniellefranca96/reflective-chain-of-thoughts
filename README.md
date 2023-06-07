@@ -19,6 +19,7 @@ To summarize the steps:
 
 6.Loop Back: Based on the progress check, return to the CoT and repeat the process, adjusting as necessary.
 
+![image](https://github.com/daniellefranca96/reflective-chain-of-thoughts/assets/134293046/6e4513dc-65db-49d7-b251-8a42edf5854a)
 
 ## Running
 The prompt file contains the first version of the method, it was tested on GPT3 and GPT4. To run it, copy the template, fill your GOAL and EXPECTED RESULTS and run it in a LLM.

@@ -5,13 +5,19 @@ This method involves a deep step-by-step analysis, where we consider various per
 
 To summarize the steps:
 
-CoT - Step-by-step Analysis: Begin thinking about the first step to approach the goal.
-Starting  a new interaction: here we make a summary of all previous paths decided.
-ToT - Expanding Thoughts: Consider different perspectives and potential paths related to this first step.
-Deciding the Path: Decide the most promising path based on the different approaches.
-Progress Check: Evaluate if the decision brings us closer to the goal.
-Goal Achievement Check:  This step is to evaluate if the expected result has been achieved. If not, you continue refining and developing your ideas.
-Loop Back: Based on the progress check, return to the CoT and repeat the process, adjusting as necessary.
+0.CoT - Step-by-step Analysis: Begin thinking about the first step to approach the goal.
+
+1.Starting  a new interaction: here we make a summary of all previous paths decided.
+
+2.ToT - Expanding Thoughts: Consider different perspectives and potential paths related to this first step.
+
+3.Deciding the Path: Decide the most promising path based on the different approaches.
+
+4.Progress Check: Evaluate if the decision brings us closer to the goal.
+
+5.Goal Achievement Check:  This step is to evaluate if the expected result has been achieved. If not, you continue refining and developing your ideas.
+
+6.Loop Back: Based on the progress check, return to the CoT and repeat the process, adjusting as necessary.
 
 
 ## Running

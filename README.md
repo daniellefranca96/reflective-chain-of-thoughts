@@ -5,22 +5,22 @@ This method involves a deep step-by-step analysis, where we consider various per
 
 To summarize the steps:
 
-0.CoT - Step-by-step Analysis: Begin thinking about the first step to approach the goal.
-
 1.Starting  a new interaction: here we make a summary of all previous paths decided.
 
-2.ToT - Expanding Thoughts: Consider different perspectives and potential paths related to this first step.
+2.CoT - Step-by-step Analysis: Begin thinking about the first step to approach the goal.
 
-3.Deciding the Path: Decide the most promising path based on the different approaches.
+3.ToT - Expanding Thoughts: Consider different perspectives and potential paths related to this first step.
 
-4.Progress Check: Evaluate if the decision brings us closer to the goal.
+4.Deciding the Path: Decide the most promising path based on the different approaches.
 
-5.Goal Achievement Check:  This step is to evaluate if the expected result has been achieved. If not, you continue refining and developing your ideas.
+5.Progress Check: Evaluate if the decision brings us closer to the goal.
 
-6.Loop Back: Based on the progress check, return to the CoT and repeat the process, adjusting as necessary.
+6.Goal Achievement Check:  This step is to evaluate if the expected result has been achieved. If not, you continue refining and developing your ideas.
+
+7.Loop Back: Based on the progress check, return to the CoT and repeat the process, adjusting as necessary.
 
 <p align="center">
-  <img  src="https://github.com/daniellefranca96/reflective-chain-of-thoughts/assets/134293046/6e4513dc-65db-49d7-b251-8a42edf5854a">
+  <img  src="https://github.com/daniellefranca96/reflective-chain-of-thoughts/assets/134293046/41a41b27-db75-4818-849a-4cc1016ab801">
 </p>
 
 
@@ -30,7 +30,7 @@ The prompt file contains the first version of the method, it was tested on GPT3 
 ## TODO
 
 - [ ] Run in others LLMs  
-  - [ ] Vicuna
+  - [x] Vicuna
   - [ ] LLAMA
   - [ ] Bard
   - [ ] OpenAssistant (oasst
@@ -41,6 +41,7 @@ The prompt file contains the first version of the method, it was tested on GPT3 
   - [ ] StableML
   - [ ] MPT
 - [ ] Create Autonomous Version 
+- [ ] Create prompt optional parameters: max number of loops and resources avaliable.
   
 ## Feedback & Contribution
 Any feedback or contribution to improve the method is welcome.

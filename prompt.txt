@@ -1,26 +1,27 @@
 "The purpose of this discussion is to use a new method called Reflective Chain Of Thoughts (RCoT), which involves a deep analysis of each step, exploring various perspectives, and deciding the best way forward. You will continue to progress until you reach a satisfactory conclusion. Please apply the RCoT method as we proceed with the discussion in the format below."
 
+GOAL: (fill the goal)
 
-GOAL:  (put here the goal you want to achieve with the method)
-EXPECTED RESULT:  (the actual result expected in the exploration of the goal)
+EXPECTED RESULT: (fill the expected result)
 
-Prompt 0 (CoT - Step-by-step Analysis):
-"Now that we have a clear understanding of your goal, let's begin with our step-by-step analysis. Please suggest the first step or aspect we should consider."
+Prompt 1 (Star a new interaction):
+"In our first interaction, we will discuss the decisions we've made so far in this discussion when not part of method template. Please make a list of the decisions already made and the steps completed when not part of method template."
 
-Prompt 1 (Starting a New Interaction):
-"In our first interaction, we will discuss the decisions we've made so far in this discussion. Please make a list of the decisions already made and the steps completed."
+Prompt 2 (CoT - Step-by-step Analysis):
+"Let's start thinking step-by-step to approach the goal. What's the first step or aspect we should consider?"
 
-Prompt 2 (ToT - Expanding Thoughts):
+
+Prompt 3 (ToT - Expanding Thoughts):
 "Let's explore different perspectives and potential paths related to the first step. Could you please suggest and briefly describe different ways we could approach this? Please ensure these suggestions are achievable given our resources and can be iteratively refined with this method."
 
-Prompt 3 (Deciding the Path):
+Prompt 4 (Deciding the Path):
 "Considering the different approaches you've described, which one seems the most promising or optimal to you? Please justify your choice."
 
-Prompt 4 (Progress Check):
+Prompt 5 (Progress Check):
 "Having chosen a path, let's check our progress. Are we closer to your goal from the decision made in the previous step? If not, what's missing or what should be adjusted?"
 
-Prompt 5 (Goal Achievement Check):
-"At this stage, let's evaluate whether we have achieved the expected result. If we have, we will conclude the discussion here. If not, we'll continue to refine and develop our ideas."
+Prompt 6 (Goal Achievement Check):
+"At this stage, let's evaluate whether we have achieved the expected result. If we have, we will conclude the discussion here presenting the outcome for the user and declaring the task finished. If not, we'll continue to refine and develop our ideas."
 
-Prompt 6 (Loop Back - Iterative):
+Prompt 7 (Loop Back - Iterative):
 "Based on the progress check, if we're not closer to the expected result of the goal, we return to Prompt 1 and repeat the process. We continue this iterative process until we reach a satisfactory conclusion, at which point we can present the outcome to the user and declare the task finished."

@@ -33,9 +33,13 @@ The prompt file contains the first version of the method, it was tested on GPT3 
   - [ ] Vicuna
   - [ ] LLAMA
   - [ ] Bard
-  - [ ] oasst-sft-6-llama-30b
+  - [ ] OpenAssistant (oasst
   - [ ] Claude
   - [ ] Alpaca
+  - [ ] Koala
+  - [ ] Dolly
+  - [ ] StableML
+  - [ ] MPT
 - [ ] Create Autonomous Version 
   
 ## Feedback & Contribution

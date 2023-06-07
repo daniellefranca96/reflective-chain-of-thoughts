@@ -27,5 +27,16 @@ To summarize the steps:
 ## Running
 The prompt file contains the first version of the method, it was tested on GPT3 and GPT4. To run it, copy the template, fill your GOAL and EXPECTED RESULTS and run it in a LLM.
 
+## TODO
+
+- [ ] Run in others LLMs  
+  - [ ] Vicuna
+  - [ ] LLAMA
+  - [ ] Bard
+  - [ ] oasst-sft-6-llama-30b
+  - [ ] Claude
+  - [ ] Alpaca
+- [ ] Create Autonomous Version 
+  
 ## Feedback & Contribution
 Any feedback or contribution to improve the method is welcome.

@@ -20,7 +20,7 @@ To summarize the steps:
 6.Loop Back: Based on the progress check, return to the CoT and repeat the process, adjusting as necessary.
 
 <p align="center">
-  <img  src="https://picsum.photos/460/300](https://github.com/daniellefranca96/reflective-chain-of-thoughts/assets/134293046/6e4513dc-65db-49d7-b251-8a42edf5854a">
+  <img  src="https://github.com/daniellefranca96/reflective-chain-of-thoughts/assets/134293046/6e4513dc-65db-49d7-b251-8a42edf5854a">
 </p>
 
 

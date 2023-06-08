@@ -23,17 +23,26 @@ To summarize the steps:
   <img  src="https://github.com/daniellefranca96/reflective-chain-of-thoughts/assets/134293046/41a41b27-db75-4818-849a-4cc1016ab801">
 </p>
 
+## Optional Parameters:
+Below are some optional parameters that can be added to any prompt to increase it's success. All parameters should be put below EXPECTED RESULT SECTION (the file prompt_all_p.txt has a example of prompt with all parameters).  
+
+- MAX NUMBER OF LOOPS: (default: as much  as needed). \[In case a number is put by the user we must adjusts the plan to get to expect result in this limitation\]  
+- RESOURCES AVALIBALE:  (default: unlimited, min: ) \[List the available resources that can be utilized by the language model that that apply to all steps, anything generated in prompts must not exceed this resources\]  
 
 ## Running
-The prompt file contains the first version of the method, it was tested on GPT3 and GPT4. To run it, copy the template, fill your GOAL and EXPECTED RESULTS and run it in a LLM.
+The promptS files contains the versions of the method, it was tested on GPT3 and GPT4. To run it, copy the template, fill your GOAL and EXPECTED RESULTS and run it in a LLM.  
+
+VERSIONS:  
+prompt-v1: optimized for deep analysis of the goal, mode free thinking, it can never reach an end like ToT.  
+prompt-v2: optimized for return of results and reaching conclusion, more flat thinking.  
 
 ## TODO
 
 - [ ] Run in others LLMs  
-  - [x] Vicuna
+  - [X] Vicuna
   - [ ] LLAMA
   - [ ] Bard
-  - [ ] OpenAssistant (oasst
+  - [ ] OpenAssistant (oasst)
   - [ ] Claude
   - [ ] Alpaca
   - [ ] Koala
@@ -41,7 +50,7 @@ The prompt file contains the first version of the method, it was tested on GPT3 
   - [ ] StableML
   - [ ] MPT
 - [ ] Create Autonomous Version 
-- [ ] Create prompt optional parameters: max number of loops and resources avaliable.
+- [X] Create prompt optional parameters: max number of loops and resources avaliable.
   
 ## Feedback & Contribution
 Any feedback or contribution to improve the method is welcome.

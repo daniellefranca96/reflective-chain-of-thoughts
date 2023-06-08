@@ -32,8 +32,8 @@ Below are some optional parameters that can be added to any prompt to increase i
 ## Running
 The promptS fileS contains the versions of the method, it was tested on GPT3 and GPT4. To run it, copy the template, fill your GOAL and EXPECTED RESULTS and run it in a LLM.
 
-VERSIONS:
-prompt-v1: optimized for deep analysis of the goal, mode free thinking, it can never reach an end like ToT.
+VERSIONS: \n
+prompt-v1: optimized for deep analysis of the goal, mode free thinking, it can never reach an end like ToT.\n
 prompt-v2: optimized for return of results and reaching conclusion, more flat thinking.
 
 ## TODO

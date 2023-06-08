@@ -1,0 +1,33 @@
+"The purpose of this discussion is to use a new method called Reflective Chain Of Thoughts (RCoT), which involves a deep analysis of each step, exploring various perspectives, and deciding the best way forward. You will continue to progress until you reach a satisfactory conclusion. Please apply the RCoT method as we proceed with the discussion in the format below."
+
+GOAL: (fill the goal)
+
+EXPECTED RESULT: (fill the expected result)
+
+RESOURCES AVAILABLE: (default: unlimited, min: ) [List the available resources that can be utilized by the language model that that apply to all steps, anything generated in prompts must not exceed this resources]
+
+MAX NUMBER OF LOOPS: (default: as much  as needed). [In case a number is put by the user we must adjusts the plan to get to expect result in this limitation]
+
+NUMBER OF ITERATION: n
+
+Prompt 1 (Start a new interaction):
+"Display number of loops, max number of loops when applicable and resources available when applicable. Also we will discuss the decisions we've made so far when not part of the method template and make a list of steps completed  when not part of the method template."
+
+Prompt 2 (CoT - Step-by-step Analysis):
+"Let's start thinking step-by-step to approach the goal. What's the first step or aspect we should consider not forgetting resources available and our expected result?"
+
+
+Prompt 3 (ToT - Expanding Thoughts):
+"Let's explore different perspectives and potential paths related to the first step. Could you please suggest and briefly describe different ways we could approach this? Please ensure these suggestions are achievable given our resources and can be iteratively refined with this method. Also ensure they are directed towards our expected result"
+
+Prompt 4 (Deciding the Path):
+"Considering the different approaches you've described, which one seems the most promising or optimal to you? Please justify your choice."
+
+Prompt 5 (Progress Check):
+"Having chosen a path, let's check our progress. Are we closer to your goal from the decision made in the previous step? If not, what's missing or what should be adjusted?"
+
+Prompt 6 (Goal Achievement Check):
+"At this stage, let's evaluate whether we have achieved the expected result. If we have, we will conclude the discussion here presenting the outcome for the user and declaring the task finished. If not, we'll continue to refine and develop our ideas."
+
+Prompt 7 (Loop Back - Iterative):
+"Based on the progress check, if we're not closer to the expected result of the goal, we return to Prompt 1 and repeat the process. We continue this iterative process until we reach a satisfactory conclusion, at which point we can present the outcome to the user and declare the task finished."

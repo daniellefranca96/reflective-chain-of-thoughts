@@ -4,6 +4,12 @@ GOAL: (fill the goal)
 
 EXPECTED RESULT: (fill the expected result)
 
+RESOURCES AVAILABLE: (default: unlimited, min: ) [List the available resources that can be utilized by the language model that that apply to all steps, anything generated in prompts must not exceed this resources]
+
+MAX NUMBER OF LOOPS: (default: as much  as needed). [In case a number is put by the user we must adjusts the plan to get to expect result in this limitation]
+
+NUMBER OF ITERATION: n
+
 Prompt 1 (Star a new interaction):
 "In our first interaction, we will discuss the decisions we've made so far in this discussion when not part of method template. Please make a list of the decisions already made and the steps completed when not part of method template."
 

@@ -24,7 +24,7 @@ To summarize the steps:
 </p>
 
 ## Optional Parameters:
-Below are some optional parameters that can be added to any prompt to increase it's success. All parameters should be put below EXPECTED RESULT SECTION (the file prompt_all_p.txt has a example of prompt with all parameters).  
+Below are some optional parameters that can be added to any prompt to increase it's success. All parameters should be put below EXPECTED RESULT SECTION.  
 
 - MAX NUMBER OF LOOPS: (default: as much  as needed). \[In case a number is put by the user we must adjusts the plan to get to expect result in this limitation\]  
 - RESOURCES AVALIBALE:  (default: unlimited, min: ) \[List the available resources that can be utilized by the language model that that apply to all steps, anything generated in prompts must not exceed this resources\]  
@@ -49,7 +49,7 @@ prompt-v2: optimized for return of results and reaching conclusion, more flat th
   - [ ] Dolly
   - [ ] StableML
   - [ ] MPT
-- [ ] Create Autonomous Version 
+- [x] Create Autonomous Version 
 - [X] Create prompt optional parameters: max number of loops and resources avaliable.
   
 ## Feedback & Contribution

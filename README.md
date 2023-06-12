@@ -1,4 +1,7 @@
 # reflective-chain-of-thoughts
+
+Demo in: https://rcot-ui.fly.dev
+
 Reflective Chain Of Thoughts (RCoT) is an attempt to combine the iterativeness of the CoT prompt with the deeper level of reflection of the ToT.
 
 This method involves a deep step-by-step analysis, where we consider various perspectives and decide the best way forward at each step. We continue this process until we reach a satisfactory conclusion. The overall goal is to think critically, analyze the problem, evaluate options, make decisions, and assess our progress regularly.

@@ -65,13 +65,12 @@ Final Answer: the final answer to the original input question
   - [X] Vicuna
   - [x] LLAMA2
   - [x] Bard
-  - [x] OpenAssistant (oasst)
+  - [ ] OpenAssistant (oasst)
   - [x] Claude
-  - [ ] Alpaca
-  - [ ] StableBeluga
+  - [ ] LLAMA
   - [x] MPT
-  - [ ] Sabia
-  - [ ] Orca
+  - [x] Sabia
+    
   - [ ] Falcon
 - [x] Create Autonomous Version 
 - [X] Create prompt optional parameters: max number of loops and resources avaliable.

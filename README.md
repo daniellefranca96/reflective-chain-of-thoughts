@@ -65,11 +65,11 @@ Final Answer: the final answer to the original input question
   - [X] Vicuna
   - [x] LLAMA2
   - [x] Bard
-  - [ ] OpenAssistant (oasst)
+  - [x] OpenAssistant (oasst)
   - [x] Claude
   - [ ] Alpaca
-  - [ ] StableML
-  - [ ] MPT
+  - [ ] StableBeluga
+  - [x] MPT
   - [ ] Sabia
   - [ ] Orca
   - [ ] Falcon

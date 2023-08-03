@@ -63,15 +63,16 @@ Final Answer: the final answer to the original input question
 
 - [ ] Run in others LLMs  
   - [X] Vicuna
-  - [ ] LLAMA
-  - [ ] Bard
+  - [x] LLAMA2
+  - [x] Bard
   - [ ] OpenAssistant (oasst)
-  - [ ] Claude
+  - [x] Claude
   - [ ] Alpaca
-  - [ ] Koala
-  - [ ] Dolly
   - [ ] StableML
   - [ ] MPT
+  - [ ] Sabia
+  - [ ] Orca
+  - [ ] Falcon
 - [x] Create Autonomous Version 
 - [X] Create prompt optional parameters: max number of loops and resources avaliable.
   

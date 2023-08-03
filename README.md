@@ -40,19 +40,24 @@ prompt-v1: optimized for deep analysis of the goal, mode free thinking, it can n
 prompt-v2: optimized for return of results and reaching conclusion, more flat thinking.  
 
 ## React Adapted Prompt
-Following bellow and adaptation of the React Framework used today in autonomous agents to implement the method:
+Following bellow and adaptation of the React Framework used today in autonomous agents to implement the method:   
 
-Goal: the input goal you must achieve
-Thought: Let's start thinking step-by-step to approach the goal. What's the first step or aspect we should consider?
-Expand Thoughts: Let's explore different perspectives and potential paths related to the first step. Could you please suggest and briefly describe different ways we could approach this?
-Deciding Path: Considering the different approaches you've described, which one seems the most promising or optimal to you? Please justify your choice.
-Action: the action to take, should be one of [YoutubeSearch, Shell] 
-Action Input: the input to the action
-Observation: the result of the action
-Progress Check: Having chosen a path, let's check our progress. Are we closer to your goal from the decision made in the previous step? If not, what's missing or what should be adjusted?
-... (this Thought/Expand Thoughts/Decide Path/Action/Action Input/Observation/Progress Check can repeat N times)
-Thought: I now know the final answer
-Final Answer: the final answer to the original input question
+YoutubeSearch: useful for when you need to search a video on youtube  
+Shell: useful for when you need use to computer shell    
+
+Use the following format:    
+
+Goal: the input goal you must achieve  
+Thought: Let's start thinking step-by-step to approach the goal. What's the first step or aspect we should consider?  
+Expand Thoughts: Let's explore different perspectives and potential paths related to the first step. Could you please suggest and briefly describe different ways we could approach this?  
+Deciding Path: Considering the different approaches you've described, which one seems the most promising or optimal to you? Please justify your choice.  
+Action: the action to take, should be one of [YoutubeSearch, Shell]   
+Action Input: the input to the action  
+Observation: the result of the action  
+Progress Check: Having chosen a path, let's check our progress. Are we closer to your goal from the decision made in the previous step? If not, what's missing or what should be adjusted?  
+... (this Thought/Expand Thoughts/Decide Path/Action/Action Input/Observation/Progress Check can repeat N times)  
+Thought: I now know the final answer  
+Final Answer: the final answer to the original input question  
 
 ## TODO
 

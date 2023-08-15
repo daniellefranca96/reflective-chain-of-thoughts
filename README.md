@@ -69,11 +69,37 @@ Final Answer: the final answer to the original input question
   - [x] Claude
   - [ ] LLAMA
   - [x] MPT
-  - [x] Sabia
-    
+  - [x] Sabia 
   - [ ] Falcon
-- [x] Create Autonomous Version 
-- [X] Create prompt optional parameters: max number of loops and resources avaliable.
+  - [x] Create Autonomous Version 
+  - [X] Create prompt optional parameters: max number of loops and resources avaliable.
+  - [X] Create RCTO autonomous agent applying the prompt
   
+
+## RCoT Agent
+
+`rcto-agent` is a LangChain agent that implements the Reflective Chain Of Thoughts prompt. LangChain facilitates building applications with Large Language Models (LLMs) through composability. With `rcto-agent`, users can seamlessly integrate the power of RCoT into their LangChain applications.
+
+### Example Notebooks
+
+To get started with `rcto-agent`, check out the example notebooks provided in the `examples` folder. These notebooks demonstrate how to use the agent in:
+- Zero-shot scenarios
+- One-shot scenarios
+- Few-shot scenarios
+
+For more information about LangChain, visit [LangChain's official documentation](https://github.com/hwchase17/langchain).
+
+### Running the RCoT Agent
+
+To run the `rcto-agent`, follow these steps:
+
+1. Clone the `reflective-chain-of-thoughts` repository.
+2. Navigate to the `rcto-agent` directory.
+3. Install the dependencies on requirements.txt
+4. Navigate to the `examples` directory.
+5. Execute the Jupyter notebook of your choice (e.g., zero-shot, one-shot, few-shot scenarios).
+
+Ensure you have all the necessary dependencies installed and that you're using an environment compatible with Jupyter notebooks.
+
 ## Feedback & Contribution
 Any feedback or contribution to improve the method is welcome.

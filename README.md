@@ -61,16 +61,14 @@ Final Answer: the final answer to the original input question
 
 ## TODO
 
-- [ ] Run in others LLMs  
+- [x] Run in others LLMs  
   - [X] Vicuna
   - [x] LLAMA2
   - [x] Bard
-  - [ ] OpenAssistant (oasst)
   - [x] Claude
-  - [ ] LLAMA
   - [x] MPT
   - [x] Sabia 
-  - [ ] Falcon
+  - [x] Falcon
   - [x] Create Autonomous Version 
   - [X] Create prompt optional parameters: max number of loops and resources avaliable.
   - [X] Create RCTO autonomous agent applying the prompt

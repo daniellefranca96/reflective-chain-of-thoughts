@@ -61,7 +61,7 @@ Final Answer: the final answer to the original input question
 
 ## TODO
 
-- [ ] Run in others LLMs  
+- [x] Run in others LLMs  
   - [X] Vicuna
   - [x] LLAMA2
   - [x] Bard
